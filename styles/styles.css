@@ -53,3 +53,50 @@ body {
   width: 60%;
   margin: 2rem 0;
 }
+
+.search_query:hover .search_bar {
+  width: 80%;
+  background-color: #cbd5e0;
+}
+
+.search_query:hover .search_button {
+  width: 4rem;
+  height: 4rem;
+  font-size: 2.5rem;
+  background-color: #434190;
+}
+
+#find_best_deal {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  color: #2d3748;
+  text-align: center;
+}
+
+#select_websites {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #2d3748;
+}
+
+.number_of_search_results {
+  font-size: 2rem;
+  margin-right: 1rem;
+  color: #2d3748;
+}
+
+.select_results {
+  font-size: 2rem;
+  border: none;
+  outline: none;
+  color: #2d3748;
+  background-color: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.select_results:hover {
+  color: #4299e1;
+}
