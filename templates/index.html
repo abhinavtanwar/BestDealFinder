@@ -55,6 +55,106 @@
         </div>
       </div>
       <br />
+      <h2 id="select_websites">Select the websites you want to search:</h2>
+      <div class="selection_container">
+        <label class="checkbox_label" for="amazon_checkbox">
+          Amazon India
+        </label>
+        <div title="amazon">
+          <div class="checkbox_div">
+            <input
+              type="checkbox"
+              value="1"
+              id="amazon_checkbox"
+              name="amazon_checkbox"
+              checked
+            />
+            <label for="amazon_checkbox"></label>
+          </div>
+        </div>
+        <label class="checkbox_label" for="flipkart_checkbox"> Flipkart </label>
+        <div title="flipkart">
+          <div class="checkbox_div">
+            <input
+              type="checkbox"
+              value="1"
+              id="flipkart_checkbox"
+              name="flipkart_checkbox"
+              checked
+            />
+            <label for="flipkart_checkbox"></label>
+          </div>
+        </div>
+        <label class="checkbox_label" for="mdcomputers_checkbox">
+          MD Computers
+        </label>
+        <div title="mdcomputers">
+          <div class="checkbox_div">
+            <input
+              type="checkbox"
+              value="1"
+              id="mdcomputers_checkbox"
+              name="mdcomputers_checkbox"
+            />
+            <label for="mdcomputers_checkbox"></label>
+          </div>
+        </div>
+        <label class="checkbox_label" for="theitdepot_checkbox">
+          The IT Depot
+        </label>
+        <div title="theitdepot">
+          <div class="checkbox_div">
+            <input
+              type="checkbox"
+              value="1"
+              id="theitdepot_checkbox"
+              name="theitdepot_checkbox"
+            />
+            <label for="theitdepot_checkbox"></label>
+          </div>
+        </div>
+        <label class="checkbox_label" for="neweggindia_checkbox">
+          Newegg India
+        </label>
+        <div title="neweggindia">
+          <div class="checkbox_div">
+            <input
+              type="checkbox"
+              value="1"
+              id="neweggindia_checkbox"
+              name="neweggindia_checkbox"
+            />
+            <label for="neweggindia_checkbox"></label>
+          </div>
+        </div>
+        <label class="checkbox_label" for="primeabgb_checkbox">
+          Prime ABGB
+        </label>
+        <div title="primeabgb">
+          <div class="checkbox_div">
+            <input
+              type="checkbox"
+              value="1"
+              id="primeabgb_checkbox"
+              name="primeabgb_checkbox"
+            />
+            <label for="primeabgb_checkbox"></label>
+          </div>
+        </div>
+      </div>
     </form>
+    <div class="results_div"></div>
+    <div class="csv_div"></div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+    <script
+      src="https://kit.fontawesome.com/5e6b5ddfea.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto"
+    />
   </body>
 </html>
